@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 93px;
+  margin-right: 12px;
+}
+
+.form-icon {
+  margin-left: 10px;
+  fill: var(--main-white);
+}
