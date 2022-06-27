@@ -5,5 +5,6 @@
     height: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.2);
-    transition: opacity var(--transition), visibility var(--transition);
+    transition: var(--transition);
+    transition-property: opacity, visibility;
 }
