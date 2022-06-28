@@ -114,7 +114,8 @@
     top: 50%;
     transform: translateY(-50%);
     left: 15px;
-    transition: fill var(--transition);
+    transition: var(--transition);
+    transition-property: fill;
     .modal__input:focus + & {
       fill: var(--accent-color);
     }

@@ -36,21 +36,15 @@
     &:hover,
     &:focus {
       border: 1px solid var(--accent-color);
-      fill: var(--accent-color);
     }
   }
   &__icon {
     transition: var(--transition);
     transition-property: fill;
     fill: #afb1b8;
-    &:hover,
-    &:focus {
+    .clients__link:hover &,
+    .clients__link:focus & {
       fill: var(--accent-color);
     }
   }
 }
-
-// .clients-link:hover .clients-icon,
-// .clients-link:focus .clients-icon {
-//   fill: var(--accent-color);
-// }
