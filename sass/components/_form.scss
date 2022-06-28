@@ -1,7 +1,7 @@
 .form {
   display: flex;
   align-items: flex-end;
-  &__label {
+  .form__label {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,11 +9,11 @@
     margin-right: 12px;
   }
 
-  &__icon {
+  .form__icon {
     margin-left: 10px;
     fill: var(--main-white);
   }
-  &__distribution-title {
+  .form__distribution-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -23,7 +23,7 @@
     color: var(--main-white);
   }
 
-  &__subscribe {
+  .form__subscribe {
     background-color: #2f303a;
     min-width: 358px;
     height: 50px;

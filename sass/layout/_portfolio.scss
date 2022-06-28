@@ -1,10 +1,10 @@
 .portfolio {
-  &__filter {
+  .portfolio__filter {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
   }
-  &__filter-item {
+  .portfolio__filter-item {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.6;
@@ -29,13 +29,13 @@
   &__filter .portfolio__filter-point:not(:last-child) {
     margin-right: 8px;
   }
-  &__list {
+  .portfolio__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 94px;
   }
-  &__item {
+  .portfolio__item {
     margin-right: 30px;
     margin-bottom: 30px;
     width: 370px;
@@ -47,7 +47,7 @@
       margin-bottom: 0px;
     }
   }
-  &__link {
+  .portfolio__link {
     display: flex;
     flex-direction: column;
     transition: var(--transition);
@@ -75,23 +75,23 @@
       transform: translateY(0);
     }
   }
-  &__overlay-text {
+  .portfolio__overlay-text {
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
     overflow: auto;
     color: var(--main-white);
   }
-  &__resourse-overlay {
+  .portfolio__resourse-overlay {
     position: relative;
     overflow: hidden;
   }
-  &__cardtext {
+  .portfolio__cardtext {
     border: 1px solid #eeeeee;
     border-top: none;
     padding: 20px 24px;
   }
-  &__work-title {
+  .portfolio__work-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -99,7 +99,7 @@
     margin-bottom: 4px;
     color: var(--title-color);
   }
-  &__work-text {
+  .portfolio__work-text {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;

@@ -1,4 +1,6 @@
 :root {
+  --main-font-first: 'Roboto', sans-serif;
+  --main-font-second: 'Raleway', sans-serif;
   --title-color: #212121;
   --main-color: #757575;
   --accent-color: #2196f3;
@@ -9,9 +11,4 @@
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  --fount-h1: Roboto;
-  --fount-h2: Roboto;
-  --fount-h3: Roboto;
-  --fount-text: Roboto;
-  --fount: Raleway;
 }

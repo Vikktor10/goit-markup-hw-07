@@ -3,7 +3,7 @@
   padding-bottom: 94px;
   margin-top: 94px;
   background: #f5f4fa;
-  &__title {
+  .team__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -12,12 +12,12 @@
     color: #212121;
     margin-bottom: 50px;
   }
-  &__list {
+  .team__list {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  &__players {
+  .team__players {
     width: 270px;
     background: #ffffff;
     margin-right: 30px;
@@ -29,11 +29,11 @@
       margin-right: 0;
     }
   }
-  &__teamcard {
+  .team__teamcard {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  &__player {
+  .team__player {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -41,19 +41,19 @@
     letter-spacing: 0.03em;
     color: var(--title-color);
   }
-  &__post {
+  .team__post {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
     margin-top: 10px;
   }
-  &__soc-list {
+  .team__soc-list {
     display: flex;
     justify-content: center;
     margin-top: 16px;
   }
-  &__soc-link {
+  .team__soc-link {
     width: 44px;
     height: 44px;
     border-radius: 50%;

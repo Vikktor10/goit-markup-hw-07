@@ -1,18 +1,18 @@
 .page-header {
-  &__container {
+  .page-header__container {
     display: flex;
     align-items: center;
   }
-  &__nav {
+  .page-header__nav {
     display: flex;
     align-items: center;
   }
-  &__contacts {
+  .page-header__contacts {
     display: flex;
     align-items: center;
     margin-left: auto;
   }
-  &__nav-list {
+  .page-header__nav-list {
     display: flex;
     padding: 0;
     margin-left: 93px;
@@ -58,7 +58,7 @@
       color: var(--accent-color);
     }
   }
-  &__info {
+  .page-header__info {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@
       color: var(--accent-color);
     }
   }
-  &__info-icon {
+  .page-header__info-icon {
     fill: currentColor;
     margin-right: 10px;
   }

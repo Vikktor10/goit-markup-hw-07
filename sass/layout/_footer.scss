@@ -1,11 +1,11 @@
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
-  &__container {
+  .footer__container {
     display: flex;
     align-items: baseline;
   }
-  &__address {
+  .footer__address {
     font-size: 14px;
     font-style: inherit;
     line-height: 1.7;
@@ -13,7 +13,7 @@
     color: var(--main-white);
     margin-top: 20px;
   }
-  &__contact-info {
+  .footer__contact-info {
     display: block;
     font-size: 14px;
     line-height: 1.7;
@@ -28,11 +28,11 @@
     }
   }
 
-  &__info {
+  .footer__info {
     margin-right: 70px;
   }
 
-  &__soc-text {
+  .footer__soc-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -40,12 +40,12 @@
     text-transform: uppercase;
     color: #ffffff;
   }
-  &__soc-list {
+  .footer__soc-list {
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
-  &__soc-link {
+  .footer__soc-link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
